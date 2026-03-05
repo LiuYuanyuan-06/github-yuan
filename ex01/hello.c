@@ -10,6 +10,7 @@ void input()
  } 
  int main()
  {
+ 	printf("Hello,World!\n");
  input();
  return 0;	
  	
