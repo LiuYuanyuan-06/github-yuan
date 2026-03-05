@@ -1,7 +1,17 @@
 #include<stdio.h>
-int main()
+void input()
 {
-	printf("Hello,World!\n");
-	return 0;
-	
+	char c;
+	printf("«Î ‰»Î£∫");
+	while((c = getchar())!='\n')
+	{
+		putchar(c);
+	 } 
  } 
+ int main()
+ {
+ input();
+ return 0;	
+ 	
+ }
+ 
