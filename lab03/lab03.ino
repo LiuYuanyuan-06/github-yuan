@@ -34,6 +34,7 @@ void loop() {
             ledcWrite(ledPin_2, dutyCycle);  
     delay(10);
   }
+
   
   Serial.println("Breathing cycle completed");
 }

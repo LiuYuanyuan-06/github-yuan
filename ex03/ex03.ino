@@ -1,5 +1,5 @@
 const int LED_PIN = 27;
-const unsigned int UNIT = 200; // 基础时间单位 (毫秒)
+const unsigned int UNIT = 200; // 时间单位
 const int pattern[] = {1, 1, 1,  3, 3, 3,  1, 1, 1}; 
 const int patternLen = sizeof(pattern) / sizeof(pattern[0]);
 
