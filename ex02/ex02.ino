@@ -1,10 +1,7 @@
  const int ledPin = 264; // 板载LED引脚
- 
-unsigned long previousMillis = 0; // 记录上次状态变化时间
-
-const long interval = 500; // 500ms切换一次
-
-bool ledState = LOW; // 当前LED状态
+ unsigned long previousMillis = 0; // 记录上次状态变化时间
+ const long interval = 500; // 500ms切换一次
+ bool ledState = LOW; // 当前LED状态
 
 void setup() {
   pinMode(ledPin, OUTPUT); // 设置引脚为输出模式
