@@ -4,7 +4,7 @@
 const int freq = 5000;    // PWM 频率
 const int resolution = 8; // 分辨率
 
-int brightness_A = 1;     // LED A 的亮度 (0-255)
+int brightness_A = 0;     // LED A 的亮度 (0-255)
 int fadeAmount = 2;       // 亮度变化步长 
 
 void setup() {
