@@ -4,7 +4,7 @@
 const int freq = 5000;    // PWM 频率
 const int resolution = 8; // 分辨率
 
-#define THRESHOLD 600;     // 触摸阈值 
+#define THRESHOLD 500;     // 触摸阈值 
 
 int brightness = 0;       // 当前亮度 
 int fadeAmount = 5;       // 亮度变化步长 
@@ -12,7 +12,7 @@ int fadeAmount = 5;       // 亮度变化步长
 int speedLevel = 1;       // 当前速度档位 (1=慢, 2=中, 3=快)
 int delayTime = 30;       // 当前延时时间 
 
-bool lastTouchState = false;    // 上一次触摸状态
+bool lastTouchState = true;    // 上一次触摸状态
 unsigned long lastDebounceTime = 0; // 防抖时间戳
 
 void setup() {
