@@ -1,8 +1,8 @@
 #define TOUCH_PIN 27      // 触摸引脚 
 #define LED_PIN 2         // LED引脚 
-#define THRESHOLD 500     // 阈值
+#define THRESHOLD 550     // 阈值
 
-bool ledState = true;          // 记录灯是亮还是灭
+bool ledState = false;          // 记录灯是亮还是灭
 unsigned long lastTime = 0;     // 记录上次触发的时间
 const long debounceDelay = 400; // 400毫秒内忽略重复触发 
 
