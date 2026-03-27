@@ -4,7 +4,7 @@
 const int freq = 5000;    // PWM 频率
 const int resolution = 8; // 分辨率
 
-#define THRESHOLD 600     // 触摸阈值 
+#define THRESHOLD 600;     // 触摸阈值 
 
 int brightness = 0;       // 当前亮度 
 int fadeAmount = 5;       // 亮度变化步长 
